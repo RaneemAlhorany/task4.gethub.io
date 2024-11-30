@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        a{
+            border: 2px solid green;
+            color: black;
+            display: block;
+            width: 100px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        a:hover{
+            background-color: green;
+            color: azure;
+        }
+
+        ul{
+            list-style-type: square ;
+            background-color: yellow;
+           
+        }
+
+
+        li::marker {
+        color: orange;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            z-index: -1;
+        }
+
+        
+
+
+    </style>
+    <body>
+
+       <a href="#"> This is a link</a>
+
+       <ul>
+         <li>Coffee</li>
+         <li>Tea</li>
+         <li>Coca Cola</li>
+       </ul>
+
+       <img src="img.jpg" alt="image color">
+       <h1>This is a heading </h1>
+       <p>Because the image has a z-index of -1 , will be placed behind the text.</p>
+
+       
+
+        
+    </body>
+</html>
